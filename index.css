@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100svw;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+span {
+    font-size: 72px;
+    font-family: 'DM Serif Display', serif;
+    color: #cdc5a6;
+}
+
+@media (max-width: 576px) {
+    section {
+        gap: 20px;
+    }
+    img {
+        width: 75%;
+    }
+    span {
+        font-size: 32px;
+    }
+    
+}
